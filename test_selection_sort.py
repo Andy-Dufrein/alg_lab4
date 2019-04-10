@@ -2,8 +2,7 @@
 # -*- coding: utf-8 -*-
 import unittest
 import numpy as np
-from selection_sort import selection_sort
-
+from selection_sort import mini, selection_sort
 
 class TestSelectionSort(unittest.TestCase):
     def __init__(self, *args, **kwargs):

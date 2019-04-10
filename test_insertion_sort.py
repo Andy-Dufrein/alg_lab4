@@ -2,8 +2,7 @@
 # -*- coding: utf-8 -*-
 import unittest
 import numpy as np
-from insertion_sort import insertion_sort
-
+from insertion_sort import binary_insert, insertion_sort
 
 class TestInsertionSort(unittest.TestCase):
     def __init__(self, *args, **kwargs):
